@@ -24,10 +24,10 @@ START_TEXT = """🌷 ʜᴇʏ ᴅᴇᴀʀ, ɪ ᴀᴍ  𝙻ᴀᴡʟᴇss 𝙰ɴᴏ
 REPLY_MARKUP = InlineKeyboardMarkup([
     [InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/JARVIS_V2"),
         InlineKeyboardButton(
-            text="sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url=f"https://t.me/CHATTING_2024")],
-    [InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/JARVIS_X_SUPPORT"),
+            text="sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url=f"https://t.me/Dora_Hub")],
+    [InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/JARVIS_V_SUPPORT"),
         InlineKeyboardButton(
-            text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url=f"https://t.me/afkreason")]])
+            text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url=f"https://t.me/Doraa_World")]])
 
 @SD.on_message(filters.command('start') & filters.private)
 async def start(client, message):    
